@@ -1,3 +1,13 @@
+req.url
+var w = url.parse(req.url).pathname
+  <!-- pathname is object key -->
+  <!-- parsing url and selecting path  -->
+var x = w.split(path.sep)
+  <!-- should return array -->
+
+parse, select proper index, stringify index
+
+
 # Node HTTP Server
 
 ![pet-shop](https://i.imgur.com/Ec7j4nr.jpg)
