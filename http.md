@@ -1,7 +1,7 @@
 req.url
 var w = url.parse(req.url).pathname
   <!-- pathname is object key -->
-  <!-- parsing url and selecting path  -->
+  <!-- parsing url and seletcting path  -->
 var x = w.split(path.sep)
   <!-- should return array -->
 
